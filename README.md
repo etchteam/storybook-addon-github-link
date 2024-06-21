@@ -5,7 +5,7 @@ A Storybook Addon to add a link to Github source code for each story.
 ## Installation
 
 ```sh
-npm install @etchteam/storybook-addon-githu-link --save-dev
+npm install @etchteam/storybook-addon-github-link --save-dev
 ```
 
 ## Storybook setup
