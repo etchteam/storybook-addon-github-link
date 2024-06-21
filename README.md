@@ -53,10 +53,9 @@ The URL that all other paths will be prepended with.
 
 Auto generate URLs based on the current story being viewed.
 
-By default URLs will be generated from the stories title, for example this is what will happen to a story with the title `Controls/Base/Info button`:
+URLs will be generated from the stories title, for example this is what will happen to a story with the title `Components/Info button`:
 
-- "Controls/" will be removed
-- "Base/Info button" will be transformed to lower kebab case "base/info-button"
+- "Components/Info button" will be transformed to lower kebab case "components/info-button"
 - The `baseURL` will be prepended to form the full URL
 
 > [!NOTE]

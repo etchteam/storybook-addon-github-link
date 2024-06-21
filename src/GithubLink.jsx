@@ -34,8 +34,7 @@ function autoGenerateURL(storybookApi, baseURL) {
     return;
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [_type, ...componentPathParts] = story.title.split('/');
+  const componentPathParts = story.title.split('/');
   const path = componentPathParts
     .map((item) => item.toLowerCase().replace(/\s/g, '-'))
     .join('/');

@@ -1,7 +1,7 @@
 const preview = {
   parameters: {
     githubLink: {
-      baseURL: 'https://github.com/etchteam/storybook-addon-github-link/stories',
+      baseURL: 'https://github.com/etchteam/storybook-addon-github-link/tree/main/stories',
       auto: true,
     }
   }
