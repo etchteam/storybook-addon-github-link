@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/etchteam/storybook-addon-github-link/compare/v1.0.1...v1.0.2) (2024-10-31)
+
+
+### Bug Fixes
+
+* **deps:** update vulnerable deps ([ebf48d9](https://github.com/etchteam/storybook-addon-github-link/commit/ebf48d98e5c3b304abbcaadf6ff98fa90cb7667c))
+
 ## [1.0.1](https://github.com/etchteam/storybook-addon-github-link/compare/v1.0.0...v1.0.1) (2024-06-21)
 
 
