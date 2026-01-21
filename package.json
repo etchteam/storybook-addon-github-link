@@ -63,6 +63,7 @@
     "@storybook/addon-docs": "10.1.11",
     "@storybook/icons": "^1.2.9",
     "@storybook/react-vite": "10.1.11",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
     "eslint": "^9.0.0",
     "eslint-plugin-storybook": "^0.12.0",
     "husky": "^9.0.11",
