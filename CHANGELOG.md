@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/etchteam/storybook-addon-github-link/compare/v1.0.2...v2.0.0) (2026-01-21)
+
+### ⚠ BREAKING CHANGES
+
+* Storybook v10 support
+
+### Features
+
+* Storybook v10 support ([6fb2c66](https://github.com/etchteam/storybook-addon-github-link/commit/6fb2c66cd78c983ff5df07ac46827e8339c62228))
+
 ## [1.0.2](https://github.com/etchteam/storybook-addon-github-link/compare/v1.0.1...v1.0.2) (2024-10-31)
 
 
