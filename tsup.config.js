@@ -1,28 +1,14 @@
-import { globalPackages as globalManagerPackages } from '@storybook/manager/globals';
 import { defineConfig } from 'tsup';
 
-// The current browsers supported by Storybook v7
-const BROWSER_TARGET = ['chrome100', 'safari15', 'firefox91'];
-
-export default defineConfig(async (options) => {
-  const commonConfig = {
-    splitting: false,
-    minify: !options.watch,
-    treeshake: true,
-    sourcemap: true,
-    clean: true,
-  };
-
-  const configs = [
-    {
-      ...commonConfig,
-      entry: ['src/manager.js'],
-      format: ['esm'],
-      target: BROWSER_TARGET,
-      platform: 'browser',
-      external: globalManagerPackages,
-    },
-  ];
-
-  return configs;
-});
+export default defineConfig((options) => ({
+  entry: ['src/manager.js'],
+  format: ['esm'],
+  target: 'esnext',
+  platform: 'browser',
+  splitting: true,
+  minify: !options.watch,
+  treeshake: true,
+  sourcemap: true,
+  clean: true,
+  external: ['react', 'react-dom', '@storybook/icons'],
+}));

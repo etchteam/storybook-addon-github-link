@@ -1,6 +1,6 @@
-import { IconButton } from '@storybook/components';
-import { useParameter, useStorybookApi } from '@storybook/manager-api';
 import React from 'react';
+import { IconButton } from 'storybook/internal/components';
+import { useParameter, useStorybookApi } from 'storybook/manager-api';
 
 import { ADDON_ID } from './constants';
 
@@ -23,7 +23,7 @@ function prependURL(baseURL, url) {
 /**
  * Auto generate a github URL based on the stories name
  *
- * @param {import('@storybook/manager-api').API} storybookApi
+ * @param {import('storybook/manager-api').API} storybookApi
  * @param {string} baseURL
  * @returns {string | void} the auto generated url or void if it cannot be generated
  */
